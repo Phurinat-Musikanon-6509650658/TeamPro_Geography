@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>ภูเก็ต</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" context="IE=edge">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous"
+        ></script>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Noto+Sans:wght@300&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- สร้าง menu -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">ภูเก็ต ภูไทย</a>
+                <button class="navbar-toggler" deta-bs-toggler="collapse" data-bs-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbar1" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">หน้าแรก</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link">บริการ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">สถานที่เที่ยว</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">แจ้งปัญหา</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- การสร้าง Slider -->
+        <section id="slider">
+            <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+                <ol class="carousel-indicators">
+                    <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>                    
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="display-3">พระอาทิตย์ตกดิน</h1>
+                                <p>The perfect picture of the sky will always be sunset.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item carousel-image-2 ">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ดอกทานตะวัน</h1>
+                                <p>She chose us as the moon. But you are sunflower. Who love the sun.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item carousel-image-3 ">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ทะเล</h1>
+                                <p>Let the waves hit your feet and the sand be your seat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Section -->
+        <section id="service" class="py-5">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4 text-center mb-4">
+                    <h3>ไกด์นำเที่ยว</h3>
+                    <p>Let the waves hit your feet and the sand be your seat.</p>
+                  </div>
+                  <div class="col-md-4 text-center mb-4">
+                    <h3>รับถ่ายภาพ</h3>
+                    <p>Let the waves hit your feet and the sand be your seat.</p>
+                  </div> 
+                  <div class="col-md-4 text-center mb-4">
+                    <h3>แต่งรูปภาพ</h3>
+                    <p>Let the waves hit your feet and the sand be your seat.</p>
+                  </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="p-5">
+            <div class="dark-overlay">
+                <div class="row">
+                    <div class="col">
+                        <div class="container pt-5">
+                            <h1>เกี่ยวกับเรา</h1>
+                            <p>แนะนำสมาชิกภายในทีม</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about image -->
+        <section id="about1" class="p-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallary -->
+        <section id="gallary" class="p-5">
+            <div class="container">
+                <h1 class="text-center">ผลงานของเรา</h1>
+                <p class="text-center">Let the waves hit your feet and the sand be your seat</p>
+            </div>
+         </section>
+
+        <!-- gallary image -->
+        <section id="gallary1" class="p-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.insider.com/6011ac2b6dfbe10018e0049f?width=1000&format=jpeg&auto=webp" class="img-fluid">
+                        <p>นางสาว ...........</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">แจ้งปัญหา</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div> 
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>อีเมล</label>
+                                <input type="email" placeholder="ป้อนอีเมลของคุณ" class="frorm-control">
+                            </div>
+                            <div class="form-group">
+                                <label>หัวข้อ</label>
+                                <input type="text" placeholder="คุณพบเจอปัญหาส่วนไหน" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>รายละเอียด</label>
+                                <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                        <button class="btn byn-success">ส่งข้อมูล</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center p-4">
+                <div class="row">
+                    <div class="col">
+                        <p>Copyright &copy; Phurinat Musikanon 6509650658</p>
+                    </div>
+                </div>
+        </footer>
+
+        <section>
+            <div class="container">
+                <h1 class="text-center">เลือกวันเพื่อดูข้อมูลย้อนหลัง</h1>
+                <div class="mb-3">
+                    <label for="datePicker" class="form-label">เลือกวันที่:</label>
+                    <input type="date" id="datePicker" class="form-control">
+                </div>
+                <button id="fetchData" class="btn btn-primary">แสดงข้อมูล</button>
+                <div id="results">
+                    <h3>ข้อมูล:</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>คอลัมน์ 1</th>
+                                <th>คอลัมน์ 2</th>
+                                <th>คอลัมน์ 3</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- ตารางจะแสดงข้อมูลที่นี่ -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+            <!-- PapaParse -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+            <!-- JavaScript -->
+            <script>
+                document.getElementById('fetchData').addEventListener('click', function () {
+                    const selectedDate = document.getElementById('datePicker').value;
+        
+                    if (!selectedDate) {
+                        alert("กรุณาเลือกวันที่ก่อน!");
+                        return;
+                    }
+        
+                    // อ่านไฟล์ CSV
+                    Papa.parse("สถิตินักท่องเที่ยวจังหวัดภูเก็ต.csv", {
+                        download: true,
+                        header: true,
+                        complete: function (results) {
+                            const data = results.data;
+        
+                            // กรองข้อมูลตามวันที่
+                            const filteredData = data.filter(row => row['วันที่'] === selectedDate);
+        
+                            // แสดงข้อมูลในตาราง
+                            const tableBody = document.getElementById('tableBody');
+                            tableBody.innerHTML = ""; // ล้างข้อมูลเก่าในตาราง
+        
+                            if (filteredData.length > 0) {
+                                filteredData.forEach(row => {
+                                    const tr = document.createElement('tr');
+                                    Object.values(row).forEach(value => {
+                                        const td = document.createElement('td');
+                                        td.textContent = value;
+                                        tr.appendChild(td);
+                                    });
+                                    tableBody.appendChild(tr);
+                                });
+                            } else {
+                                tableBody.innerHTML = "<tr><td colspan='3'>ไม่พบข้อมูลในวันที่เลือก</td></tr>";
+                            }
+                        }
+                    });
+                });
+            </script>
+        </section>
+
+        <section>
+            <div class="container">
+                <h1 class="text-center">เลือกช่วงเดือนเพื่อดูข้อมูล</h1>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="startMonth" class="form-label">เดือนเริ่มต้น:</label>
+                        <input type="month" id="startMonth" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="endMonth" class="form-label">เดือนสิ้นสุด:</label>
+                        <input type="month" id="endMonth" class="form-control">
+                    </div>
+                </div>
+                <button id="fetchData" class="btn btn-primary">แสดงข้อมูล</button>
+                <div id="results">
+                    <h3>ข้อมูล:</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>วันที่</th>
+                                <th>คอลัมน์ 1</th>
+                                <th>คอลัมน์ 2</th>
+                                <th>คอลัมน์ 3</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- ตารางจะแสดงข้อมูลที่นี่ -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+            <!-- PapaParse -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+            <!-- JavaScript -->
+            <script>
+                document.getElementById('fetchData').addEventListener('click', function () {
+                    const startMonth = document.getElementById('startMonth').value;
+                    const endMonth = document.getElementById('endMonth').value;
+        
+                    if (!startMonth || !endMonth) {
+                        alert("กรุณาเลือกทั้งเดือนเริ่มต้นและเดือนสิ้นสุด!");
+                        return;
+                    }
+        
+                    // Convert months to comparable formats
+                    const startDate = new Date(startMonth + "-01");
+                    const endDate = new Date(endMonth + "-01");
+                    endDate.setMonth(endDate.getMonth() + 1); // Include the entire last month
+        
+                    // อ่านไฟล์ CSV
+                    Papa.parse("สถิตินักท่องเที่ยวจังหวัดภูเก็ต.csv", {
+                        download: true,
+                        header: true,
+                        complete: function (results) {
+                            const data = results.data;
+        
+                            // กรองข้อมูลตามช่วงเดือน
+                            const filteredData = data.filter(row => {
+                                const rowDate = new Date(row['วันที่']); // Assuming 'วันที่' is the column name
+                                return rowDate >= startDate && rowDate < endDate;
+                            });
+        
+                            // แสดงข้อมูลในตาราง
+                            const tableBody = document.getElementById('tableBody');
+                            tableBody.innerHTML = ""; // ล้างข้อมูลเก่าในตาราง
+        
+                            if (filteredData.length > 0) {
+                                filteredData.forEach(row => {
+                                    const tr = document.createElement('tr');
+                                    Object.values(row).forEach(value => {
+                                        const td = document.createElement('td');
+                                        td.textContent = value;
+                                        tr.appendChild(td);
+                                    });
+                                    tableBody.appendChild(tr);
+                                });
+                            } else {
+                                tableBody.innerHTML = "<tr><td colspan='4'>ไม่พบข้อมูลในช่วงเดือนที่เลือก</td></tr>";
+                            }
+                        }
+                    });
+                });
+            </script>
+        </section>
+</html>

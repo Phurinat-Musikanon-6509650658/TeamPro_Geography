@@ -1,0 +1,78 @@
+*{
+    font-family: "Noto Sans Thai", serif;
+}
+
+.container 
+{ 
+    margin-top: 30px; 
+}
+        
+#results 
+{ 
+    margin-top: 20px; 
+
+}
+
+.carousel-item
+{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url(https://img.kapook.com/u/2021/sutasinee/03/q5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2{
+    background-image: url(https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5LFhmitGCayHm0sPN4Ky03lFn8j17Fe61HIe9MCriRGksvYfWKL.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-3{
+    background-image: url(https://www.thaifly.com/image/catalog/article/Vietnam/Sun/vietnam-sea/vietnam-sea%202.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#about
+{
+    min-height: 200px;
+    position: relative;
+    background-image: url(https://www.canberratimes.com.au/images/transform/v1/crop/frm/rJkJNFPcdBkDQKqtkgHSjA/c024db06-95ec-48da-86b8-cf33d75ab547.jpg/r0_0_5866_3298_w1200_h678_fmax.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+#about1
+{
+    text-align: center;
+}
+
+.dark-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+#gallary
+{
+    min-height: 200px;
+    position: relative;
+    background-image: url(https://www.canberratimes.com.au/images/transform/v1/crop/frm/rJkJNFPcdBkDQKqtkgHSjA/c024db06-95ec-48da-86b8-cf33d75ab547.jpg/r0_0_5866_3298_w1200_h678_fmax.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
